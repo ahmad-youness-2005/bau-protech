@@ -54,7 +54,7 @@
     width: 30px;
     height:30px;
   }
-  .logo {
+  .logo0 {
     margin-left :40px;
   }
   .search-container {
@@ -91,20 +91,123 @@
     margin-top: 90px;
   }
   h2{
-color:#360000;
-background-color: white;
-font-family: Arial;
-font-size: 40px;
+    color:white;
+    background-color: #292982;
+    font-family: Arial;
+    font-size: 35px;
+    padding: 7px;
   }
-  h2:hover{
-    color: #000036;
-    cursor: pointer;
-  }
+  footer{
+            background-color: #000036;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5%;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+
+        }
+
+        .logo img {
+            width: 220px;
+            height: auto;
+            margin-left:-60px ;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        .footer-section {
+            margin-left: 100px;
+            margin-top:50px;
+            flex: 1;
+            text-align: left;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 5px;
+        }
+
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .copyright {
+            text-align: center;
+        }
+
+        .copyright p {
+            margin: 0;
+        }
+ul img{
+            width: 30px;
+            height: 30px;
+            display:inline;
+        }
+
+        .social-media-icons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.social-media-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align logos horizontally */
+}
+.social-media-list li {
+    margin-right: 10px; /* Adjust margin between logos as needed */
+}
+.social-media-list img {
+    width: 30px;
+    height: 30px;
+}
+        .payment-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.payment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.payment-list li {
+    display: inline;
+   
+}
+.pimg{
+    width:40px;
+    height: 40px;
+}
+.mm{
+    margin-top:70px;
+}
     </style>
 </head>
 <body>
     <div class="navbar">
-        <img src="ahmad.png" alt="Logo" width:="90" height="70" class="logo">
+        <img src="ahmad.png" alt="Logo" width:="90" height="70" class="logo0">
       <div class="search-container">
         <table>
             <tr>
@@ -328,5 +431,62 @@ font-size: 40px;
                 </td>
             </tr>
         </table>
+        <footer>
+            <div class="footer-content">
+                <div class="logo" >
+                    <img src="logo.jpeg" alt="Logo" class="logo">
+                </div>
+                <div class="footer-section">
+                    <h3 class="font">Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">partnerships</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="font" >Products</h3>
+                    <ul>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">phones</a></li>
+                        <li><a href="#">TVS</a></li>
+                        <li><a href="#">Accesories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="font">Support</h3>
+                    <ul>
+                        <li><a href="#">report</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Showcase</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul></div>
+              <div>
+                    <h3 class="mm" >&nbsp;&nbsp;&nbsp;&nbsp;Follow us</h3>
+                        <div class="social-media-icons">
+                            
+                            <ul class="social-media-list">
+                                <li><img src="instagram (1).svg"></li>
+                                <li><img src="twitter.svg"></li>
+                            </ul>
+                            <ul class="social-media-list">
+                                <li><img src="face.svg"></li>
+                                <li><img src="Titok.svg"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-icons">
+                    <ul class="payment-list">
+                        <li><img src="visa-logo.svg" class="pimg"></li>
+                        <li><img src="money.svg" class="pimg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <h3 style="text-align:center">&copy; Copyright. All rights reserved.</h3>
+            </div>
+        </footer>
 </body>
 </html>

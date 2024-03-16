@@ -9,7 +9,7 @@ h2{
 }
 table{
     border-color: rgb(180, 158, 158);
-    margin: auto;
+    margin: 0 auto;
     border-collapse: collapse;
     border-color: white;
     width: 10cm;
@@ -31,13 +31,13 @@ border-color: rgb(255, 255, 255);
     padding-bottom: 20px;
 }
 input[type="submit"]{
-    background-color: black;
-    border: none;
+    background-color: #001a4b;
     color: white;
     width: 100%; 
     box-sizing: border-box;
     padding: 7px;  
     cursor: pointer;
+    border:none;
 }
 .box{
     text-align: left;
@@ -46,11 +46,6 @@ input[type="submit"]{
     padding-bottom: 17px;
     background-color: white;
     border: none;
-    }
-    image{
-        background-image: none;
-        border: none;
-        cursor: pointer;
     }
     .img{
         border: none;
@@ -66,9 +61,30 @@ input[type="submit"]{
     }
     .border2{
         padding-top: 0px;
-        border-bottom: 5px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     input[type="text"],input[type="password"]{
         border-color:white;
         padding-left: 200px;
+    }
+    .logo{
+        padding-top: 0px;
+        border: none;
+        margin: 0 auto;
+        display: flex; 
+        justify-content: center;
+        background-color:#517B93;
+    }
+    .border3{
+        border: none;
+        background-color:#547E96;
+    }
+    .mid{
+        text-align: center;
+        border: none;
     }

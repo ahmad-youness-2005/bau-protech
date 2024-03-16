@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 352.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a1060;
+        font-family: Poppins-ExtraBold, Poppins;
+        font-size: 187.89px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="630" height="352.32" rx="32.46" ry="32.46"/>
+  <text class="cls-1" transform="translate(62.1 236.05)"><tspan x="0" y="0">Cash</tspan></text>
+</svg>
