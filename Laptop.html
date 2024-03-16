@@ -5,52 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .table{
-            border-style: none;
-            border-collapse: collapse;
-            margin: 0 auto;
-        }
-        .M{
-            margin: 2%; 
-            padding: 4%;
-        }
-        .l{
-             margin-bottom: 7%; 
-            padding-right: 20px;
-        }
-        .img{
-            border:1px solid rgb(156, 155, 155);
-            border-radius:2% ;
-            margin-right: 20px;
-            padding: 25px;
-        }
-        .img1{
-            width:180px;
-            height:50px
-        }
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        .f{
-             color:rgb(163, 159, 159)
-        }
+    .table{
+    border-style: none;
+    border-collapse: collapse;
+     margin: 0 auto;
+    }
+    .M{
+    margin: 2%; 
+     padding: 4%;
+     }
+    .l{
+     margin-bottom: 7%; 
+    padding-right: 20px;
+    }
+    .img{
+     border:1px solid rgb(156, 155, 155);
+    border-radius:2% ;
+    margin-right: 20px;
+     padding: 25px;
+    }
+    .img1{
+     width:180px;
+    height:50px
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    .f{
+     color:rgb(163, 159, 159)
+     }   
+    .navbar {
+    background-color: #000036;
+    padding: 8px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  .c{
+    border-radius: 3px;
+    margin-right: 40px;
+    width: 30px;
+    height:30px;
+  }
+  .logo {
+    margin-left :40px;
+  }
+  .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+  .icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-input {
+    padding: 8px;
+    border: none;
+    margin-right:10px;
+    width: 700px;
+  }
+  .search-button {
+    background-color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  .favorites {
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .radius{
+    border-radius: 2px;
+  }
+
+  .tbsearch{
+    border-collapse: collapse;
+    border-color: transparent;
+    border-width: 0;
+  }
+  .categ{
+    
+  }
     </style>
 </head>
 <body>
-
+    <div class="navbar">
+        <img src="ahmad.png" alt="Logo" width:="90" height="70" class="logo">
+      <div class="search-container">
+         <table class="tbsearch">
+          <tr>
+        <div class="radius">
+        <td><img src="slogo.png"  height="15" class="search-button" ></td>
+      <td><input type="text" placeholder="Search..." class="search-input"></td>
+      </td></div>
+      </tr>
+      </table>
+      </div>
+      <div class="favorites">
+        <img src="Cartttt.svg" class="c">
+        <img src="kegk.svg" class="c">
+        <img src="whatsapp.svg" class="c">
+      </div>
+      </div>
     <table class="table">
-        <tbody>
             <tr>
+                <div class="Categ">
                 <td><a href="#link1"><image src="https://image.coolblue.nl/max/220x220/content/224888"class="img img1"></image></a></td>
                 <td><a href="#link3"><image src="https://image.coolblue.nl/max/220x220/content/518782"class="img img1"></image></a></td>
                 <td><image src="https://image.coolblue.nl/max/220x220/content/561140"class="img img1"></image></td> 
                 <td><a href="#link4"><image src="https://image.coolblue.nl/max/220x220/content/206542"class="img img1"></image></a></td>
+            </div>
             </tr>
-        </tbody>
-    </table>
-    <table class="table">
-        <tbody>
             <tr>
                 <td colspan="4"><h2>Apple Products</h2></td>
             </tr>
@@ -60,9 +144,8 @@
                 <image src="M2.jpeg"width="190"height="170" class="l"></image>
                </td>
                <td><image src="MAir.jpeg"width="190"height="170" class="l"></image>
-</td>
-            <td><image src="A.webp"width="190"height="120" class="l"></image>
-</td>
+            </td>
+            <td><image src="A.webp"width="190"height="120" class="l"></image></td>
             </tr>
             <tr>
                 <td>
@@ -92,13 +175,11 @@
             </tr>
         <tr>
             <td colspan="4"><h2 id="link4">lenovo Products</td>
-            </tr></h2>
+            </tr>
             <tr>
                 <td><image src="lenovo-legion.jpeg"width="260"height="220" class="l"></image><br/></td>
-                    <td><image src="Lenovo-flex.jpeg"width="260"height="220" class="l"></image><br/>
-</td>
-                        <td><image src="Lenovo legion.jpeg"width="260"height="220" class="l"></image><br/>
-</td>
+                    <td><image src="Lenovo-flex.jpeg"width="260"height="220" class="l"></image><br/> </td>
+                        <td><image src="Lenovo legion.jpeg"width="260"height="220" class="l"></image><br/></td>
                             <td><image src="Lenovo LOQ.jpeg"width="260"height="220" class="l"></image><br/></td>
             </tr>
             <tr>
