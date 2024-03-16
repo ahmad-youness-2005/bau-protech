@@ -47,14 +47,6 @@ input[type="submit"]{
     background-color: white;
     border: none;
     }
-    .img{
-        border: none;
-        position: relative;
-        left: 95%;
-        cursor: pointer;
-        padding-bottom: 0px;
-        padding-top: 0px;
-    }
     .center{
         margin:0 auto;
         width: 50%;
@@ -74,17 +66,18 @@ input[type="submit"]{
     }
     .logo{
         padding-top: 0px;
+        border-radius: 50%;
         border: none;
         margin: 0 auto;
         display: flex; 
         justify-content: center;
-        background-color:#517B93;
-    }
-    .border3{
-        border: none;
-        background-color:#547E96;
     }
     .mid{
         text-align: center;
         border: none;
+    }
+    .imgborder{
+        border: none;
+        padding-top: 20px;
+        
     }
