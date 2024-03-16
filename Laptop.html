@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PRO TECH</title>
+    <link rel="icon"type="image/x-icon"href="ahmad.png">
     <style>
     .table{
     border-style: none;
@@ -11,12 +12,13 @@
      margin: 0 auto;
     }
     .M{
-    margin: 2%; 
-     padding: 4%;
+    margin: 5%; 
      }
     .l{
      margin-bottom: 7%; 
     padding-right: 20px;
+    margin: 0 auto;
+    display: block;
     }
     .img{
      border:1px solid rgb(156, 155, 155);
@@ -55,21 +57,6 @@
   .logo {
     margin-left :40px;
   }
-  .input-field {
-  width: 100%;
-  padding: 10px;
-  outline: none;
-}
-.input-field:focus {
-  border: 2px solid dodgerblue;
-}
-  .icon {
-  padding: 10px;
-  background: dodgerblue;
-  color: white;
-  min-width: 50px;
-  text-align: center;
-}
   .search-container {
     display: flex;
     align-items: center;
@@ -82,13 +69,11 @@
     width: 700px;
   }
   .search-button {
-    background-color: #fff;
     border: none;
-    padding: 8px;
+    padding: px;
     cursor: pointer;
   }
   .favorites {
-    color: #fff;
     margin-left: 10px;
     padding: 10px;
     cursor: pointer;
@@ -102,8 +87,18 @@
     border-color: transparent;
     border-width: 0;
   }
-  .categ{
-    
+  .Categ{
+    margin-top: 90px;
+  }
+  h2{
+color:#360000;
+background-color: white;
+font-family: Arial;
+font-size: 40px;
+  }
+  h2:hover{
+    color: #000036;
+    cursor: pointer;
   }
     </style>
 </head>
@@ -111,14 +106,14 @@
     <div class="navbar">
         <img src="ahmad.png" alt="Logo" width:="90" height="70" class="logo">
       <div class="search-container">
-         <table class="tbsearch">
-          <tr>
-        <div class="radius">
-        <td><img src="slogo.png"  height="15" class="search-button" ></td>
-      <td><input type="text" placeholder="Search..." class="search-input"></td>
-      </td></div>
-      </tr>
-      </table>
+        <table>
+            <tr>
+          <div class="radius">
+          <!-- <td><img src="slogo.png"  height="15" class="search-button" ></td> -->
+        <td><input type="text" placeholder="Search..." class="search-input"></td>
+        </td></div>
+        </tr>
+        </table>
       </div>
       <div class="favorites">
         <img src="Cartttt.svg" class="c">
@@ -126,15 +121,22 @@
         <img src="whatsapp.svg" class="c">
       </div>
       </div>
+      <aside>
+
+      </aside>
     <table class="table">
             <tr>
                 <div class="Categ">
                 <td><a href="#link1"><image src="https://image.coolblue.nl/max/220x220/content/224888"class="img img1"></image></a></td>
                 <td><a href="#link3"><image src="https://image.coolblue.nl/max/220x220/content/518782"class="img img1"></image></a></td>
-                <td><image src="https://image.coolblue.nl/max/220x220/content/561140"class="img img1"></image></td> 
+                <td><a href="#link2"><image src="hp.svg"class="img img1"></image></a></td>
                 <td><a href="#link4"><image src="https://image.coolblue.nl/max/220x220/content/206542"class="img img1"></image></a></td>
-            </div>
             </tr>
+            <tr>
+                <td><image src="apple.svg"class="img img1"></image></td>
+            </tr>
+            </div>
+
             <tr>
                 <td colspan="4"><h2>Apple Products</h2></td>
             </tr>
@@ -143,7 +145,7 @@
                <td>
                 <image src="M2.jpeg"width="190"height="170" class="l"></image>
                </td>
-               <td><image src="MAir.jpeg"width="190"height="170" class="l"></image>
+               <td><image src="MAir.jpeg"width="230"height="220" class="l"></image>
             </td>
             <td><image src="A.webp"width="190"height="120" class="l"></image></td>
             </tr>
@@ -209,7 +211,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="4"><h2>HP Products</h2></td>
+                <td colspan="4"><h2 id="link2">HP Products</h2></td>
             </tr>
             <tr>
                 <td><image src="HP victus.jpeg"width="190"height="170" class="S l"></image><br/>
