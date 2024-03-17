@@ -12,6 +12,7 @@ table{
     top: 50%;
     transform: translateY(-50%);
 }
+
 .border{
 border: none;
 padding-bottom: 10px;
@@ -93,4 +94,7 @@ input[type="submit"]{
         }
         .login{
             position: absolute; width: 24px; height: 10px; padding: 11px;left: 135px;
+        }
+        .span{
+            color: #111170;
         }

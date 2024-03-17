@@ -147,7 +147,11 @@
         .copyright p {
             margin: 0;
         }
-ul img{
+        body{
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        ul img{
             width: 30px;
             height: 30px;
             display:inline;
@@ -155,18 +159,18 @@ ul img{
 
         .social-media-icons {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center; 
 }
 
 .social-media-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Align logos horizontally */
+    display: flex;
 }
 .social-media-list li {
-    margin-right: 10px; /* Adjust margin between logos as needed */
+    margin-right: 10px; 
 }
 .social-media-list img {
     width: 30px;
@@ -192,4 +196,8 @@ ul img{
 }
 .mm{
     margin-top:70px;
+}
+.pimg2{
+  width:40px;
+  height: 40px;
 }
