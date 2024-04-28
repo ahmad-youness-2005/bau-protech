@@ -1,5 +1,5 @@
 *{
-font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 table{
 border-color: white;
@@ -47,7 +47,7 @@ font-size: 12px;
 margin:0 auto;
 width: 50%;
 }
-input[type="text"],input[type="password"]{
+input[type="email"],input[type="password"],input[type="number"],input[type="text"]{
 padding-right: 208px;
 font-size: 11px;
 padding-top: 7px;
@@ -76,24 +76,15 @@ border-color: white;
 color: rgb(145, 144, 144);
 font-size: 12px;
 }
-.fog{
-text-align: left;
-padding-left: 22px;
-padding-right: 30px;
-padding-bottom: 17px;
+.label{
+padding-left: 20px;
 border: none;
-font-size: 12px;
-text-align: center;
 }
-.face{
-position: absolute; width: 24px; height: 16px; padding: 10px;left: 90px;
+.lastsecond{
+border: none;
+padding-bottom: 10px;
+padding-left: 20px;
+border-color: white;
+color: #A2A2A2;
 }
-.gmail{
-position: absolute; width: 24px; height: 9px; padding: 12px;left: 99px;
-}
-.login{
-position: absolute; width: 24px; height: 10px; padding: 11px;left: 135px;
-}
-.span{
-color: #111170;
-}
+

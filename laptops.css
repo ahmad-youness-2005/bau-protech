@@ -2,6 +2,7 @@
     border-style: none;
     border-collapse: collapse;
      margin: 0 auto;
+     margin-top: 20px;
     }
     .M{
     margin: 5%; 
@@ -16,7 +17,7 @@
      border:1px solid rgb(156, 155, 155);
     border-radius:2% ;
     margin-right: 20px;
-     padding: 25px;
+     padding: 24px;
     }
     .img1{
      width:180px;
@@ -25,10 +26,7 @@
     a{
     text-decoration: none;
     color: black;
-    }
-    .f{
-     color:rgb(163, 159, 159)
-     }   
+    }   
     .navbar {
     background-color: #000036;
     padding: 8px;
@@ -84,13 +82,14 @@
   }
   h2{
     color:white;
-    background-color: #292982;
+    background-color: #000036;
     font-family: Arial;
-    font-size: 35px;
+    font-size: 22px;
     padding: 7px;
+    padding-left: 15px;
   }
   footer{
-            background-color: #000036;
+   background-color: #000036;
             color:white;
             padding: 20px 0;
             display: flex;
@@ -147,22 +146,21 @@
         .copyright p {
             margin: 0;
         }
-        body{
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        ul img{
-            width: 30px;
-            height: 30px;
-            display:inline;
-        }
+   body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+   ul img{
+    width: 30px;
+    height: 30px;
+    display:inline;
+ }
 
-        .social-media-icons {
-    display: flex;
-    justify-content: center;
+ .social-media-icons {
+   display: flex;
+   justify-content: center;
     align-items: center; 
 }
-
 .social-media-list {
     list-style: none;
     padding: 0;
@@ -188,7 +186,7 @@
 }
 .payment-list li {
     display: inline;
-   
+ 
 }
 .pimg{
     width:40px;
@@ -200,4 +198,8 @@
 .pimg2{
   width:40px;
   height: 40px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }

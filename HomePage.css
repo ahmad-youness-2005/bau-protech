@@ -1,0 +1,170 @@
+
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .navbar {
+    background-color:#000036;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .c{
+    border-radius: 3px;
+    margin-right: 40px;
+    width: 60px;
+    height:50px;
+  }
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  .logo {
+    margin-left :40px;
+  
+  }
+
+:root {
+  --second-color: #ff9500;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+button{
+  background-color: #088178;
+  color: white;
+  border-radius: 3px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #ff9500;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ff9500;
+}
+
+
+
+p {
+  font-size: 16px;
+  color:black;
+  margin: 15px 0 20px 0;
+}
+
+body {
+  width: 100%;
+}
+
+hr {
+  background-color: var(--second-color);
+  width: 50%;
+  text-align: center;
+  color: #088178;
+  height: 8px;
+  margin: 20px auto;
+}
+
+
+#hero {
+  background-image: url("ProTech.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#product1 {
+  text-align: center;
+}
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+#banner3 .banner-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(phones_and_ipads.jpeg);
+  background-color: #a9a9a9;
+  background-blend-mode: multiply;
+  min-width: 30%;
+  border-radius: 5px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(laptops.jpeg);
+  background-color: #7599c4;
+  background-blend-mode: multiply;
+  border-radius: 5px;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(tvs.png);
+  background-color: #ccded9;
+  background-blend-mode: multiply;
+  min-width: 30%;
+  border-radius: 5px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cat{  color: white;
+margin-top: 50%;}
+
+
+
