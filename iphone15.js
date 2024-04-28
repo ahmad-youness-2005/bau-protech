@@ -214,3 +214,12 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "Nova12lite.html";
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+   
+    var photo = document.getElementById("backarrow");
+
+    photo.addEventListener("click", function() {
+
+        window.location.href = "Phone.html";
+    });
+});
