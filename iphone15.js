@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     photo.addEventListener("click", function() {
 
-        window.location.href = "product.html";
+        window.location.href = "iphone15pro.html";
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
