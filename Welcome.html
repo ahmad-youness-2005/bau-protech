@@ -249,6 +249,30 @@ padding-right:10px ;
     height:300px;
     padding-left: 155px;
 }
+        }
+.big-container {
+            position: relative;
+        }
+
+        .big-description {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            width: 25%; 
+            height: 100%; 
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .big-description p {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
     </style>
     <script >
         document.addEventListener("DOMContentLoaded", function() {
@@ -307,6 +331,13 @@ document.addEventListener("DOMContentLoaded", function() {
             <img src="Cartttt.svg" class="c">
             <img src="Like.svg" class="c">
             <img src="whatsapp.svg" class="c">
+        </div>
+    </div>
+    <div class="big-container">
+        <img src="Welcome.jpeg" class="big" alt="Welcome to Pro Tech">
+        <div class="big-description">
+            <p>Welcome to Pro Tech</p>
+            <p>Your destination for phones, TVs, and laptops</p>
         </div>
     </div>
 <img src="Welcome.jpeg" class="big">
