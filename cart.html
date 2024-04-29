@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cart-items {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+
+    .cart-product-title {
+        font-weight: bold;
+    }
+
+    .cart-price,
+    .cart-quantity {
+        margin-left: 20px;
+    }
+
+    #checkout-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    #checkout-btn:hover {
+        background-color: #333;
+    }
+</style>
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <div class="cart-items">
+
+    </div>
+    <button id="checkout-btn">Proceed to Checkout</button>
+
+    <script>
+
+        function updateCartUI() {
+     
+            const cartItemsElement = document.querySelector('.cart-items');
+
+           
+            const cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+          
+            if (Object.keys(cart).length === 0) {
+                cartItemsElement.innerHTML = '<p>Your cart is empty</p>';
+                return;
+            }
+
+     
+            let cartHTML = '';
+            for (const [productTitle, productInfo] of Object.entries(cart)) {
+                cartHTML += `
+                    <div class="cart-item">
+                        <div class="cart-product-title">${productTitle}</div>
+                        <div class="cart-price">${productInfo.price}</div>
+                        <div class="cart-quantity">${productInfo.quantity}</div>
+                        <button class="remove-item-btn" onclick="removeFromCart('${productTitle}')">Remove</button>
+                    </div>
+                `;
+            }
+
+           
+            cartItemsElement.innerHTML = cartHTML;
+        }
+
+        function removeFromCart(productTitle) {
+            
+            let cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+          
+            if (cart.hasOwnProperty(productTitle)) {
+               
+                delete cart[productTitle];
+
+               
+                localStorage.setItem('cart', JSON.stringify(cart));
+
+               
+                updateCartUI();
+            }
+        }
+
+        
+        document.getElementById('checkout-btn').addEventListener('click', () => {
+           
+            window.location.href = 'checkout.html';
+        });
+
+
+        updateCartUI();
+    </script>
+</body>
+</html>
